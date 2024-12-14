@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/pyrogram/pyrogram">
+    <a href="https://github.com/faridSrydi/smallgram">
         <img src="https://docs.pyrogram.org/_static/pyrogram.png" alt="Pyrogram" width="128">
     </a>
     <br>
@@ -22,7 +22,7 @@
     </a>
 </p>
 
-## Pyrogram
+## Smallgram X Pyrogram
 
 > Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots
 
@@ -34,7 +34,7 @@ app = Client("my_account")
 
 @app.on_message(filters.private)
 async def hello(client, message):
-    await message.reply("Hello from Pyrogram!")
+    await message.reply("Hello from Smallgram!")
 
 
 app.run()
